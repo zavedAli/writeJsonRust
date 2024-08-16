@@ -18,13 +18,13 @@ fn main(){
         article: String::from("how to work json in rust"),
         author: String::from("akhil"),
         paragraph: vec![
-            paragraph {
+            Paragraph {
                 name: String::from("first sentence")
             },
-            paragraph {
+            Paragraph {
                 name: String::from("body of the paragraph")
             },
-            paragraph {
+            Paragraph {
                 name: String::from("end of the paragraph")
             }
 
